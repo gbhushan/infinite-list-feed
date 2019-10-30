@@ -1,0 +1,14 @@
+.container {
+  width: 38rem;
+  border: 2px solid green;
+  display: flex;
+  &-col-1 {
+    flex-grow: 0.5;
+  }
+  &-col-2 {
+    flex-grow: 3;
+  }
+  &-col-3 {
+    flex-grow: 1;
+  }
+}
